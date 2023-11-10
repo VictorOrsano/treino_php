@@ -1,0 +1,29 @@
+Alcool: R$ 3,45
+1- =20L, desconto de 3% por L
+2- >20L, desconto de 5% por L
+
+Gasolina: R$ 4,53
+1- =20L, desconto de 4% por L
+2- >20L, desconto de 6% por L
+
+=========================
+
+leia o valor do alcool
+    $var = 3,45 
+    $resuldado = $var*$varPorcL
+    se for ate 20L
+        calcule o desconto de 3% de 20L e imprima o
+        valor total do $resuldado
+    se for acima de 20L
+        calcule o desconto de 5% de 20L e imprima o 
+        valor total do $resuldado
+
+leia o valor da gasolina
+    $var = 4,53 
+    $resuldado = $var*$var%porL
+    se for ate 20L
+        calcule o desconto de 4% de 20L e imprima o
+        valor total do $resuldado 
+    se for acima de 20L
+        calcule o desconto de 6% de 20L e imprima o
+        valor total do $resuldado

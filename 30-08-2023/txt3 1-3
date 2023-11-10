@@ -1,0 +1,49 @@
+1-
+Temperatura_Fareheit=50
+Temperatura_Celcius = 5*(Temperatura_Fareheit-32/9);
+return Temperatura_Celcius
+
+
+2-50Kg -> regul. normal
+>50Kg ~= 4R$ por Kg excedente
+Var. excesso -> quant. Kg em excesso, var. multa-> valor a pagar pelo excesso
+<!-- $var M = 4*X -->
+================================================
+
+leia a $varP e grave a $varP, 
+se $varP for >50Kg,  calcule 
+    $varE = $varP - 50
+e calcule o valor
+    $varE * por 4 e 
+imprima o resultado
+
+$varP = 50 + X
+$varE = $varP - 50
+resultado = $varE * 4
+
+
+3- 
+
+salario ganho por hora= $varG = X
+Horas trabalhadas por mes =$varH = Y
+$varSB = $varG*$varH
+sao Descontados:
+IR= 11%
+INSS = 8%
+Sindicato = 5%
+$varINSS = 8%
+$varSindicato = 5%
+$varD = -24%
+$varSL = $varSB $varD
+
+=================================
+
+Leia e questione a quant. da $varG e $varH
+Calcule $varG*$varH e mostre o resultado do $varSB
+calcule o valor do $varINSS  
+    $varINSS = 8%*$varSB
+calcule o valor do $varSindicato
+    $varSindicato = 5%*$varSB
+calcule o valor de $varSL
+    $varSL = $varSB -IR-INSS-Sindicato
+
